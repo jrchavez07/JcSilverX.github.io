@@ -81,7 +81,7 @@ section {
 	border-width: 3px;
 }
 
-/* media for all */
+/* media for all for iphones */
 
 @media all and (max-width: 1200px) {
 
@@ -109,5 +109,38 @@ section {
 
 	#main-area-content h3 {
 		font-size: 3.625rem !important;
+	}
+}
+
+
+/* media orientation (landscape) for iphones */
+@media all and (orientation: landscape) {
+	
+	#heading-group h1 {
+		font-size: 6.625rem;
+		padding-top: 200px;
+	}
+
+	#heading-group h2 {
+		font-size: 2.625rem;
+		padding-bottom: 100px;
+	}
+
+	#main-navbar .navbar-brand {
+		font-size: 2.825rem;
+		font-weight: 100;
+	}
+
+	#main-navbar .navbar-nav {
+		font-size: 1.625rem;
+		font-weight: 100;
+	}
+
+	#main-navbar .navbar-toggler-icon {
+		font-size: 1.625rem;
+	}
+
+	#main-area-content h3 {
+		font-size: 2.1rem !important;
 	}
 }
