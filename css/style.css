@@ -41,16 +41,6 @@ body {
 	text-decoration: underline;
 }
 
-@media (max-width: 1200px) {
-	#heading-group h1 {
-		font-size: 8rem;
-	}
-
-	#heading-group h2 {
-		font-size: 2.625rem;
-	}
-}
-
 section {
         min-height: 100vh;
         display: flex;
@@ -89,4 +79,35 @@ section {
 
 .changeColor .navbar-toggler:focus {
 	border-width: 3px;
+}
+
+/* media for all */
+
+@media all and (max-width: 1200px) {
+
+	#heading-group h1 {
+		font-size: 16.625rem;
+	}
+
+	#heading-group h2 {
+		font-size: 3.625rem;
+	}
+	
+	#main-navbar .navbar-brand {
+		font-size: 5.825rem;
+		font-weight: 100;
+	}
+
+	#main-navbar .navbar-nav {
+		font-size: 2.825rem;
+		font-weight: 100;
+	}
+
+	#main-navbar .navbar-toggler-icon {
+		font-size: 2.825rem;
+	}
+
+	#main-area-content h3 {
+		font-size: 3.625rem !important;
+	}
 }
