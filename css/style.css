@@ -1,0 +1,92 @@
+
+body {
+	background-color: #F5F5F7;
+	font-family: 'Spectral', serif;
+}
+
+
+#main-navbar .navbar-brand {
+	font-family: 'Allison', cursive;
+	font-weight:900;
+	font-size: 3.625rem;
+}
+
+#main-navbar .navbar-nav {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 1.3rem;
+}
+
+#heading-group {
+	color: #F5F5F7;
+}
+
+#heading-group h1 {
+	font-family: 'Allison', cursive;
+	font-weight: 900;
+	font-size: 12.625rem;
+}
+
+#heading-group h2 {
+	font-size: 3.625rem;
+	font-weight: normal;
+}
+
+.bg-img {
+	/* background-image: url('https://cdn.wallpapersafari.com/85/77/g6ovOG.jpg'); */
+	background-color: #000000;
+	background-size: cover;
+}
+
+.pro {
+	text-decoration: underline;
+}
+
+@media (max-width: 1200px) {
+	#heading-group h1 {
+		font-size: 8rem;
+	}
+
+	#heading-group h2 {
+		font-size: 2.625rem;
+	}
+}
+
+section {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.changeColor .navbar-brand {
+	color: rgba(0, 0, 0, 1);
+}
+
+.changeColor .navbar-nav .nav-link.active {
+	color: rgba(0, 0, 0, 0.55);
+}
+
+.changeColor .navbar-nav .nav-link {
+	color: rgba(0, 0, 0, 0.35);
+}
+
+.changeColor .nav-item:hover .nav-link {
+	color: rgba(0, 0, 0, 0.75);
+}
+
+.changeColor .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.changeColor .navbar-toggler {
+	border: 1px solid rgb(111, 112, 112);
+	transition: shadow 0.15s ease-in-out;
+}
+
+.changeColor .navbar-toggler {
+	text-decoration: none;
+}
+
+.changeColor .navbar-toggler:focus {
+	border-width: 3px;
+}
