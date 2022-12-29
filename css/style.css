@@ -108,7 +108,7 @@ section {
 	}
 
 	#main-area-content h3 {
-		font-size: 3.625rem !important;
+		font-size: 3.625rem;
 	}
 }
 
@@ -141,6 +141,6 @@ section {
 	}
 
 	#main-area-content h3 {
-		font-size: 2.1rem !important;
+		font-size: 2.1rem;
 	}
 }
